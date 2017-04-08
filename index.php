@@ -131,7 +131,7 @@ for ($m=1-$maxmonths; $m<1; $m++)
       $year--;
       $month = (($month + 11) % 12) + 1;
     }
-  $cal = `cal $month $year`;
+  $cal = `cal -h $month $year`;
   $nothingthismonth = 1;
   for ($day=1; $day<=31; $day++)
     {
