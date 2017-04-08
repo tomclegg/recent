@@ -228,7 +228,7 @@ $endtime = explode (" ", microtime());
 $endtime = $endtime[1] + $endtime[0];
 $exectime = $endtime - $starttime;
 printf ("%d ms", $exectime*1000);
-?> &bull; source code <a href="http://svn.tomclegg.net/svn/kcr/trunk/recent/public_html/">available</a></small></p>
+?> &bull; <a href="https://github.com/tomclegg/recent">source code on github</a></small></p>
 
 </body>
 </html>
