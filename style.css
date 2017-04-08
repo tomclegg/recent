@@ -1,0 +1,15 @@
+.okdate, .okdate a {
+text-decoration: none;
+color: #000;
+background-color:#fff;
+}
+
+.cal {
+background-color:#ccc;
+}
+
+.timechooser td {
+width: 2em;
+text-align: center;
+cursor: pointer;
+}
